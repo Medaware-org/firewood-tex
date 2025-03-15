@@ -1,9 +1,9 @@
 \begin{tikzpicture}[remember picture, overlay, shift={(current page.south west)}]
 	\foreach \phase in {1, ..., \frontphasecount} {
-		\pgfmathsetmacro{\wavealpha}{(1 - \phase / \frontphasecount)}
-		\draw[domain=0:1, smooth, samples=10, draw=\frontwavecolor, opacity=\wavealpha] plot (
+		\pgfmathsetmacro{\wavealpha}{(\phase / \frontphasecount)}
+		\draw[domain=0:1, smooth, samples=200, draw=\frontwavecolor, opacity=\wavealpha] plot (
 			{\x * \paperwidth},
-			{\paperheight / 2 + sin((4 * \x) r + (\phase * 3) + (\frontinitialphase r)) * (\paperheight / 2)}
+			{\paperheight / 2 + sin((3 * \x) r + (\phase * 1.5) + (\frontinitialphase r)) * (\paperheight / 2)}
 		);
 	}
 \end{tikzpicture}
