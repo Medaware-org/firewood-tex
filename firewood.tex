@@ -4,12 +4,14 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{tikz}
 
-\usepackage[a4paper, left=15mm, right=15mm, bottom=20mm, top=25mm]{geometry}
+\usepackage[a4paper, left=15mm, right=15mm, bottom=20mm, top=15mm]{geometry}
 
 \input{config.tex}
+\input{common.tex}
 
 \begin{document}
 	\pagenumbering{gobble}
 	\include{pages/title}
 	\pagenumbering{arabic}
+	\include{pages/market}
 \end{document}
