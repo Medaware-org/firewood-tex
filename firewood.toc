@@ -4,6 +4,7 @@
 \contentsline {subsection}{\numberline {3.1}Power Calculations}{2}{}%
 \contentsline {subsubsection}{\numberline {3.1.1}Continuous Form}{2}{}%
 \contentsline {subsection}{\numberline {3.2}Unique Value Proposition}{2}{}%
+\contentsline {subsection}{\numberline {3.3}Customer Profile}{2}{}%
 \contentsline {section}{\numberline {4}Market}{2}{}%
 \contentsline {subsection}{\numberline {4.1}Competitive Landscape}{2}{}%
 \contentsline {subsection}{\numberline {4.2}Growth Trends}{3}{}%
