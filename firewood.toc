@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Abstract}{2}{}%
+\contentsline {section}{\numberline {2}Our Purpose}{2}{}%
+\contentsline {section}{\numberline {3}Client Demographics}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Power Calculations}{2}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Continuous Form}{2}{}%
