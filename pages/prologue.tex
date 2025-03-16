@@ -2,41 +2,34 @@
 \subsection{Customer Traits}
 It is reasonable to assume that, due to the inherent nature of the products offered by \fw, its customers must
 exhibit one common trait, namely \textbf{the need for a mobile, localised source of heat energy}.
-This definition, despite not immediately coming across as inherently flawed, ignroes a very important parameter of the
-energy source, this being the (average) thermal power output. \\[\baselineskip]
+This definition, despite not being necessarily flawed, ignores a very important parameter of the
+energy source --- the (average) thermal power output.
+There is, after all, a vast difference between a cigarette lighter, and an acetylene torch.
 \subsection{Power Calculations}
-Consider a typical \textit{BIC} lighter equipped with $4.5g$ of butane fuel. Said fuel amount is capable of maintaining
-a (more or less) constant power output throughout the duration of $30min$.
-Upon combustion, one mole of butane fuel releases a fixed amount of energy into the environment. This energy is defined
+To narrow down our customer base, let's run some primitive calculations to determine the power range we're striving to
+operate within.
+Consider a typical lighter from a competing company, \textit{BIC}. Said lighter is equipped with $4.5g$ of butane fuel.
+This amount of butane allows the device to maintain a (more or less) constant power output throughout the duration of $30min$.
+Upon combustion, one mole of the butane fuel releases a fixed amount of energy into the environment. This energy is defined
 by the \textit{enthalpy of combustion} $\dots$
 \begin{align*}
 	\Delta H_{c\textit{(mol)}} &= -2.88 \cdot 10^3 \: kJ \cdot mol^{-1}
 \end{align*}
-Given the molar mass of butane $\dots$
+Thus, the device is capable of outputting an average amount of thermal power equal to $\dots$
 \begin{align*}
-	M &= 58.124 \: g \cdot mol^{-1}
-\end{align*}
-A full tank of butane contains:
-\begin{align*}
+	M &= 58.124 \: g \cdot mol^{-1} \\
 	n &= \frac{4.5 \: g}{58.124 \: g \cdot mol^{-1}} \\
 	  &= 7.74 \cdot 10^{-2} \: mol \\
-\end{align*}
-And is thus capable of delivering a fixed amount of total energy:
-\begin{align*}
 	\Delta H_c &= \Delta H_{c\textit{(mol)}} \cdot n \\
-		   &= -2.23 \cdot 10^2 \: kJ
-\end{align*}
-Spreading that energy output out over a $30$-minute burn time, the average power output equals $\dots$
-\begin{align*}
+		   &= -2.23 \cdot 10^2 \: kJ \\
 	\bar{P} = \frac{E}{t} &= \frac{2.23 \cdot 10^2 \: kJ \cdot 10^3}{30min \cdot 60s} \\
 			&= \frac{2.23 \cdot 10^5}{1.7 \cdot 10^3} \\
-			&= 123.8 \: W
+			&= \du{123.8 \: W}
 \end{align*}
-Assuming that the fuel consuption is not constant, the power formula may be expressed in a continuous form:
+\subsubsection{Continuous Form}
+Assuming that the fuel consuption is not constant, the formul{\ae} for the instantaneous and average power outputs
+shall be expressed in a continuous form:
 \begin{align*}
-	P(t) &= \frac{dE}{dt}
-\end{align*}
-Thus, the average power output in the time frame $[0; \: T]$ becomes $\dots$
-\begin{align*}
+	P(t) &= \frac{dE}{dt} \\
 	\bar{P} &= \frac{1}{T} \cdot \int\limits_{0}^{T} P(t) \: dt
 \end{align*}
