@@ -1,5 +1,5 @@
 ## Firewood
-Dies iræ, dies illa, solvet sæclum in favilla, teste David cum Sibylla
+Confutatis maledictis, Flammis acribus addictis, Voca me cum benedictis
 
 #### Written by
 _Rastislav Patak_\
